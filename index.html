@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Streaming Service</h1>
+    </header>
+
+    <main>
+        <section id="playlist">
+            <h2>My Playlist</h2>
+            <ul id="songList">
+                <!-- Songs will be dynamically added here -->
+            </ul>
+        </section>
+
+        <section id="player">
+            <h2>Now Playing</h2>
+            <div id="nowPlaying">Select a song to play</div>
+            <audio id="audioPlayer" controls>
+                <source id="audioSource" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
